@@ -1,0 +1,24 @@
+# === Maven ===
+/target/
+*.log
+
+# === IDE-specific ===
+/.idea/
+.classpath
+.project
+.settings/
+/.factorypath
+*.iml
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === VSCode (optional) ===
+.vscode/
+
+# === Docker ===
+**/.dockerignore
+
+# === Misc ===
+.env
